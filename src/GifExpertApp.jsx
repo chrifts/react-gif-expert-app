@@ -64,13 +64,21 @@ export const GifExpertApp = () => {
                         <div className='position-relative bg-transparent' style={{
                             bottom: 54
                         }}>
-                            <p className='text-right m-0 bg-transparent'>
+                            <p className='text-center m-0 bg-transparent'>
                                 <button style={{
                                     position: 'relative',
                                     width: '45%',
                                     height: '50px',
                                     opacity: 0
-                                }} className="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                }} className="btn btn-primary mr-2" type="button" data-toggle="collapse" data-target="#collapseIglesia" aria-expanded="false" aria-controls="collapseIglesia">
+                                    Ver mapa
+                                </button>
+                                <button style={{
+                                    position: 'relative',
+                                    width: '45%',
+                                    height: '50px',
+                                    opacity: 0
+                                }} className="btn btn-primary ml-2" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                     Ver mapa
                                 </button>
                             </p>
@@ -84,6 +92,11 @@ export const GifExpertApp = () => {
                             <div className="collapse" id="collapseExample">
                                 <div className="card card-body">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.50529295280765!2d-58.72692891336552!3d-34.50073723820536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2a3475c9bdd%3A0x3afb7976fc2ff753!2sOasis%20Cooper%20Eventos!5e0!3m2!1sen!2sar!4v1702679616660!5m2!1sen!2sar" width="600" height="450" style={{ border: 0, width: '100%' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                            <div className="collapse" id="collapseIglesia">
+                                <div className="card card-body">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.2036965501666!2d-58.71064402338386!3d-34.49771985190944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2c4223a9c49%3A0xfc5a2eba050d6001!2sCongregaci%C3%B3n%20San%20Marcos%20Iglesia%20Evang%C3%A9lica%20Luterana%20Argentina!5e0!3m2!1sen!2sar!4v1705100871523!5m2!1sen!2sar" width="600" height="450" style={{ border: 0, width: '100%' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
